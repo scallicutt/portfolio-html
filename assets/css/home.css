@@ -1,0 +1,25 @@
+.home {
+}
+
+.home-banner {
+  display: flex;
+  align-items: center;
+  background: #c9bcb6;
+}
+
+.home-banner__text {
+}
+
+@media only screen and (min-width: 768px) {
+  .home-banner__text {
+    width: 700px;
+  }
+}
+
+.home-banner__img-wrapper {
+  flex: 1 1 auto;
+}
+
+.home-banner__img-wrapper__img {
+  width: 100%;
+}

@@ -1,0 +1,25 @@
+/* Container */
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 80%;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+  }
+}
+
+/* Button */
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  padding: 0 1.25rem;
+  background: #caa2c4;
+  color: #f7f7f7;
+}
