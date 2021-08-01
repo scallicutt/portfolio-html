@@ -4,7 +4,7 @@
 .home-banner {
   display: flex;
   align-items: center;
-  background: #c9bcb6;
+  background: red;
 }
 
 .home-banner__text {
